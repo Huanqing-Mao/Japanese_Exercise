@@ -1,0 +1,2 @@
+cd "the directory of this folder"
+python generate_romaji.py
