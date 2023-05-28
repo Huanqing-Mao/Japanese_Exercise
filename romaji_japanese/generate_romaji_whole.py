@@ -70,7 +70,9 @@ def generate_special_poly():
 
 
 def generate_whole():
-    return generate_romaji_50() + generate_rest() + generate_poly() + generate_special_poly()
+    lst = generate_romaji_50() + generate_rest() + generate_poly() + generate_special_poly()
+    lst[44] = "(w)o"
+    return lst
             
     
     
