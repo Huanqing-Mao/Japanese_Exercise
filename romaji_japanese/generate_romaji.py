@@ -1,7 +1,9 @@
 from random import *
 from generate_romaji_whole import *
 
-print("日本語　Exercise")
+print("\n###################")
+print("  日本語　Exercise")
+print("###################")
 
 # functions:
 def initialise():
